@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:innerRadius="52dp"
+            android:shape="ring"
+            android:thickness="2dp"
+            android:useLevel="false">
+            <solid android:color="@color/colorAccent" />
+        </shape>
+    </item>
+    <item
+        android:left="@dimen/tick_insert_m"
+        android:top="@dimen/tick_insert_m"
+        android:width="@dimen/tick_size"
+        android:height="@dimen/tick_size">
+        <bitmap android:src="@drawable/ic_check_circle_28" />
+    </item>
+</layer-list>

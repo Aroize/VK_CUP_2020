@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/marker_item"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+    <FrameLayout
+        android:id="@+id/text_container"
+        app:layout_constraintTop_toTopOf="@id/marker_item"
+        app:layout_constraintEnd_toEndOf="@id/marker_item"
+        app:layout_constraintStart_toEndOf="@+id/marker_item"
+        app:layout_constraintBottom_toTopOf="@id/marker_item"
+        android:paddingTop="8dp"
+        android:paddingEnd="8dp"
+        android:paddingStart="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            tools:text="3" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

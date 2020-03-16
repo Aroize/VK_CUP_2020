@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/extra_info_bg"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/group_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:text="Happy Santa" />
+
+        <ImageButton
+            android:id="@+id/close_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="14dp"
+            android:background="@drawable/ic_dismiss_24"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/subscribers_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:drawableStart="@drawable/ic_followers_outline_20"
+            android:drawablePadding="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            tools:text="188,2K подписчиков 119 друзей" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_article_outline_20"
+                android:layout_marginStart="16dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="icon"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/description_text"
+                android:scrollbars="vertical"
+                android:maxLines="10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="top"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                tools:text="Разрабатываем приложения для вас и ваших друзей с 2011 года"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/last_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:drawableStart="@drawable/ic_newsfeed_outline_20"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            tools:text="Последняя запись 8 февраля" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/open_group"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/unsubscribe_btn_bg"
+        android:text="@string/open_group_btn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</LinearLayout>

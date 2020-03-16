@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DTask</string>
+    <integer name="com_vk_sdk_AppId">7335939</integer>
+    <string name="unknown_error">Произошла неизвестная ошибка. Пожалуйста, попробуйте залогиниться ещё раз</string>
+    <string name="rejected_login">Если вы не разрешите доступ к документам, приложение не сможет выполнить свой функицонал</string>
+    <string name="albums_title">Альбомы</string>
+    <string name="editing_title">Редактирование</string>
+    <string name="confirm">Подтвердите удаление</string>
+    <string name="are_you_sure_album">Вы уверены, что хотите удалить этот альбом?</string>
+    <string name="are_you_sure_photo">Вы уверены, что хотите удалить эту фотографию?</string>
+    <string name="from">%d из %d</string>
+    <string name="no_picker">Нет подходящего системного пикера</string>
+    <string name="create_album">Создать альбом</string>
+    <string name="too_short">Минимальная длина названия альбома равна 2м символам</string>
+    <plurals name="photos">
+        <item quantity="zero">фотографий</item>
+        <item quantity="one">фотография</item>
+        <item quantity="two">фотографии</item>
+        <item quantity="few">фотографии</item>
+        <item quantity="many">фотографий</item>
+        <item quantity="other">фотографий</item>
+    </plurals>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/item_photo"
+        android:layout_width="158dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/all_rounded_corners_rect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/item_photo"
+        app:layout_constraintStart_toStartOf="@+id/item_photo"
+        app:layout_constraintTop_toBottomOf="@+id/item_photo"
+        tools:text="Sportswear Tech Fleece" />
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/item_title"
+        app:layout_constraintStart_toStartOf="@+id/item_title"
+        app:layout_constraintTop_toBottomOf="@+id/item_title"
+        tools:text="4 800 Р" />
+</androidx.constraintlayout.widget.ConstraintLayout>

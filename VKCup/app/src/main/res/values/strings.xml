@@ -1,0 +1,25 @@
+<resources>
+    <integer name="com_vk_sdk_AppId">7321757</integer>
+    <integer name="anim_duration">350</integer>
+    <string name="app_name">ATask</string>
+    <string name="unknown_error">Произошла неизвестная ошибка. Пожалуйста, попробуйте залогиниться ещё раз</string>
+    <string name="rejected_login">Если вы не разрешите доступ к документам, приложение не сможет выполнить свой функицонал</string>
+    <string name="doc_title">Документы</string>
+    <string name="additional_info_template">%1$s \u00B7 %2$s \u00B7 %3$s</string>
+    <string name="yesterday">вчера</string>
+    <string name="download_hint">Отобразить документ не удалось, но Вы можете его скачать</string>
+    <string name="download">Скачать</string>
+    <string name="renaming">Переименовать</string>
+    <string name="renaming_msg">Измените название документа</string>
+    <string-array name="byte_endings">
+        <item>Б</item>
+        <item>КБ</item>
+        <item>МБ</item>
+    </string-array>
+    <string-array name="cases_list">
+        <item>Переименовать</item>
+        <item>Удалить документ</item>
+    </string-array>
+    <dimen name="preview_size">72dp</dimen>
+    <dimen name="popup_width">182dp</dimen>
+</resources>

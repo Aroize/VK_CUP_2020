@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GTask</string>
+    <string name="unknown_error">Произошла неизвестная ошибка. Пожалуйста, попробуйте залогиниться ещё раз</string>
+    <string name="rejected_login">Если вы не разрешите доступ к документам, приложение не сможет выполнить свой функицонал</string>
+    <string name="shops_template">Магазины в %1$s</string>
+    <string name="cities">Город</string>
+    <string name="group_goods">Товары сообщества %1$s</string>
+    <string name="is_favourite">Удалить из избранного</string>
+    <string name="not_favourite">Добавить в избранное</string>
+    <integer name="com_vk_sdk_AppId">7329966</integer>
+    <string-array name="group_status">
+        <item>Открытая группа</item>
+        <item>Закрытая группа</item>
+        <item>Частная группа</item>
+    </string-array>
+</resources>
